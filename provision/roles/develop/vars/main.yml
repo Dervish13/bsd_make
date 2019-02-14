@@ -1,0 +1,12 @@
+---
+develop_packages:
+  - name: cbsd
+  - name: cmake
+  - name: gist
+  - name: grub2-bhyve
+  - name: node
+  - name: python
+  - name: tmux
+  - name: vim
+  - name: yarn
+  - name: ccache

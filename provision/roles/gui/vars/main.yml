@@ -1,0 +1,10 @@
+---
+gui_packages:
+  - name: arandr
+  - name: i3
+  - name: i3status
+  - name: evince
+  - name: rofi
+  - name: rxvt-unicode
+  - name: slim
+  - name: xorg
