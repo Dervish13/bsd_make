@@ -6,6 +6,7 @@ common_packages:
   - name: curl
   - name: fish
   - name: grub2-bhyve
+  - name: py36-pip
 
 common_rc:
   - name: dbus

@@ -4,3 +4,4 @@ util_packages:
   - name: inotify-tools
   - name: pv
   - name: unzip
+  - name: reggae
