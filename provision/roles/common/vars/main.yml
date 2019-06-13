@@ -1,6 +1,6 @@
 ---
 common_packages:
-  - name: automount
+  #  - name: automount
   - name: bash
   - name: beadm
   - name: curl

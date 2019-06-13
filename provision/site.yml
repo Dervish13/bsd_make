@@ -3,7 +3,7 @@
   hosts: all
   roles:
     - common
-    - audio
+    #- audio
     - communication
     - develop
     - gui

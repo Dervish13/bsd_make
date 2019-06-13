@@ -2,7 +2,7 @@
 develop_packages:
   - name: cbsd
   - name: cmake
-  - name: gist
+    #  - name: gist
   - name: grub2-bhyve
   - name: node
   - name: python
