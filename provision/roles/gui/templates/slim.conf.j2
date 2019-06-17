@@ -5,7 +5,7 @@ default_path        /sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/us
 default_xserver     /usr/local/bin/X
 # The X server needs to be started on an unused virtual terminal,
 # for FreeBSD in a default configuration, the first one of those is #09
-xserver_arguments   -nolisten tcp vt09
+xserver_arguments   -listen tcp vt09
 
 # Commands for halt, login, etc.
 halt_cmd            /sbin/shutdown -p now
@@ -76,7 +76,7 @@ reboot_msg         The system is rebooting...
 
 # default user, leave blank or remove this line
 # for avoid pre-loading the username.
-default_user       krle 
+default_user      r
 
 # Focus the password field on start when default_user is set
 # Set to "yes" to enable this feature
